@@ -11,7 +11,7 @@
 *{
     box-sizing: border-box;
 }
-body{background:rgba(228, 192, 146, 0.568);
+body{background:rgba(240, 229, 215, 0.692);
     font-family: var(--Mont);
 }
 
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6, p{
     width: 100%;
     padding-left: 5vw;
     padding-right: 5vw;
-    background: rgba(94, 59, 59, 0.986);
+    background: #e08127;
 }
 .navbar-nav{
     padding-left: 0;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 1.3rem 0;
 }
 .navbar-brand{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 .navbar-brand span{
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* header */
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/header-banner-1.jpg) center/cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/capa.jpg) center/cover fixed;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -496,7 +496,7 @@ h1, h2, h3, h4, h5, h6, p{
     /*** navbar background change ***/
     .bg-navbar{
         width: 100%;
-        background: #594736;
+        background: #e08127;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         -webkit-box-shadow: 0px 0px 25px 0px rgba(172, 166, 166, 0.75);
@@ -507,7 +507,7 @@ h1, h2, h3, h4, h5, h6, p{
          color: var(--dark)!important; 
     }
     .bg-navbar .nav-link, .bg-navbar .call-info{
-        opacity: 0.8; 
+        opacity: 0.7; 
        color: var(--dark)!important; 
     }
     .bg-navbar .nav-link:hover, .bg-navbar .call-info:hover{
