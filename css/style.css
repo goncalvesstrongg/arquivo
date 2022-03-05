@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6, p{
 .navbar-toggler{
     border: none;
     background: transparent;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--dark);
     cursor: pointer;
     transition: var(--transition);
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* header */
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/capa.jpg) center/cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/header-banner-3.jpg) center/cover fixed;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -382,13 +382,13 @@ h1, h2, h3, h4, h5, h6, p{
 .footer-item .para-text{
     margin: 0;
     font-size: 0.9rem;
-    opacity: 0.6;
+    opacity: 5;
 }
 .footer-item:nth-child(3){
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/footer-img.jpg) center/cover no-repeat;
     color: #fff;
     padding: 2rem;
-    border-radius: 1.3rem;
+    border-radius: 1rem;
 }
 .footer-item:nth-child(3) .para-text{
     color: var(--grey);
@@ -548,3 +548,4 @@ h1, h2, h3, h4, h5, h6, p{
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
