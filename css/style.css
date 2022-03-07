@@ -11,8 +11,9 @@
 *{
     box-sizing: border-box;
 }
-body{background:rgba(240, 229, 215, 0.692);
+body{background:rgba(247, 156, 65, 0.486);
     font-family: var(--Mont);
+    
 }
 
 /* Utilities */
@@ -102,7 +103,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .navbar-collapse{
     margin: 0 auto;
-    padding-bottom: 1.6rem;
+    padding-bottom: 1rem;
     display: none; 
     
 }
@@ -385,7 +386,7 @@ h1, h2, h3, h4, h5, h6, p{
     opacity: 5;
 }
 .footer-item:nth-child(3){
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/footer-img.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/lanche-4.jpeg) center/cover no-repeat;
     color: #fff;
     padding: 2rem;
     border-radius: 1rem;
